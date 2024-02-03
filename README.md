@@ -15,3 +15,4 @@ Weather Info is a django app through which after user registration , the user ca
 
   The api's mentioned has a ratelimit of 10 api call per day and the concept I have used is throtlling which comes inbuilt with django
   the api "http://127.0.0.1:8000/weather-data/report/?latitude=52.52&longitude=13.41" will give the weather forecast for 3 days in response and also in email with which the user got registered
+  update the latitude=52.52&longitude=13.41 in above mentioned api as per ur need
